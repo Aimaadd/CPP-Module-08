@@ -1,6 +1,6 @@
 CXX = c++
 CXXFLAGS = -Werror -Wextra -Wall -std=c++98 #-Wpedantic
-NAME = Start
+NAME = easyfind
 FILES = src/main.cpp
 OBJS = $(FILES:.cpp=.o)
 
