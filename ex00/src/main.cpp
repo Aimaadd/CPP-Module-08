@@ -15,6 +15,7 @@ int main() {
         std::cout << "Not found" << std::endl;
     }
     try {
+        std::cout << "Trying to find a value that is not in the container..." << std::endl;
         std::vector<int>::iterator it = easyfind(v, 6);
         std::cout << "Found: " << *it << std::endl;
     } catch (std::exception &e) {
@@ -34,6 +35,7 @@ int main() {
         std::cout << "Not found" << std::endl;
     }
     try {
+        std::cout << "Trying to find a value that is not in the container..." << std::endl;
         std::deque<int>::iterator it = easyfind(d, 6);
         std::cout << "Found: " << *it << std::endl;
     } catch (std::exception &e) {
@@ -53,6 +55,7 @@ int main() {
         std::cout << "Not found" << std::endl;
     }
     try {
+        std::cout << "Trying to find a value that is not in the container..." << std::endl;
         std::list<int>::iterator it = easyfind(l, 6);
         std::cout << "Found: " << *it << std::endl;
     } catch (std::exception &e) {
