@@ -1,3 +1,6 @@
+#ifndef SPAN_HPP
+#define SPAN_HPP
+
 #include <iostream>
 #include <array>
 
@@ -18,3 +21,5 @@ class Span {
         int longestSpan();
         int shortestSpan();
 };
+
+#endif
